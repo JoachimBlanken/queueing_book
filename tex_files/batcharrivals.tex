@@ -248,7 +248,8 @@ $\mu \pi(1) = \lambda \pi(0)=\lambda$. Use that $G(0)=1$.
 
 It is left to find the normalization constant.
 As this recursion does not lead to a closed form expression for $\pi(n)$, such as Eq.~\eqref{eq:23}, we need to use a criterion to stop this iterative procedure.
-Finding general conditions when to stop is not directly easy, but a pragmatic approach is to simple: stop at some (large) number $N$ such that $\pi(k)\ll \pi(0)$ for $k>N$ and is steadily decreasing.\footnote{An interesting question, why should it decrease monotonically after some, large, $N$?}
+Finding general conditions when to stop is not directly easy, but a pragmatic approach is to simple: stop at some (large) number $N$ such that $\pi(k)\ll \pi(0)$ for $k>N$ and is steadily decreasing.\footnote{
+question, why should it decrease monotonically after some, large, $N$?}
 Then take $G=\sum_{i=0}^N \pi(i)$ as the normalization constant, so that $\pi(0)=1/G$, $\pi(1)=\alpha/G$, and so on.
 While this is a practical approach, getting formal bounds on a proper size of $N$ requires more work than we can do here.
 
@@ -546,7 +547,7 @@ where we use that
 
 \begin{exercise}{\faRocket}
 An interesting extension is to consider a queueing process with batch
-services, i.e., the $M/M^Y/1$ queue. Construction a recursion for the
+services, i.e., the $M/M^Y/1$ queue. Constructing a recursion for the
 steady-state probabilities $\pi(n)$ for this case is not hard, in fact,
 mostly analogous to Eq.~(\ref{eq:42}).  However, solving the recursion
 appears to be quite a bit harder; we will not discuss this further here.
